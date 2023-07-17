@@ -14,8 +14,22 @@
 - The user can create a reservation, search all reservations within the database, update, reservations and delete reservations.
 - Necessary validation is incorporated within the API that prevents illogical operations from occurring such as making an overlapping reservation.
 
+### Out of Scope
+
+These are mostly out of scope given the time constraints
+
+- The API does not implement security - it serves as a quick launch prototype
+- The API does not provide an interface to manage the different assets customers can book with a restaurant. These are hardcoded and provided to the application on startup
+- The API does not conform to the HATEOAS spec. I left this out of MVP in consideration of time constraints
+
 # Running the API server
 
+- Build and package up the application with
+- 
+```bash
+mvn clean package
+```
+- 
 - Build a Docker image with the following command:
 
 ```bash
