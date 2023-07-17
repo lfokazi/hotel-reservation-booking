@@ -25,11 +25,11 @@ These are mostly out of scope given the time constraints
 # Running the API server
 
 - Build and package up the application with
-- 
+  
 ```bash
 mvn clean package
 ```
-- 
+
 - Build a Docker image with the following command:
 
 ```bash
